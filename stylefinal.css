@@ -1,0 +1,257 @@
+.cuerpo {
+    background-color: lightgreen;
+}
+.caja{
+    
+    width: 75%;
+    height: 25%;
+    background-color: aliceblue;
+    box-shadow: 10px;
+    border: 1px black solid;
+    margin: 25px;
+    border-radius: 5px;
+}
+.titulo{
+    width: 100%vh;
+    height: 25px;
+    border: black solid;
+    text-align: center;
+    border-width: 0px 0px 1px 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.titulo2{
+    width: 100%vh;
+    height: 25px;
+    border: black solid;
+    text-align: center;
+    border-width: 0px 0px 1px 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.titulo3{
+    width: 100%vh;
+    height: 25px;
+    border: black solid;
+    text-align: center;
+    border-width: 0px 0px 1px 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.parrafo{
+    padding-left: 10px;
+    text-align: center;
+    font-family: cursive;
+    font-style: oblique;
+}
+
+.cita{
+    text-align: left;
+    width: 100%vh;
+    height: 5vh;
+    border: black solid 1px;
+    background-color: lightgray;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration:double;
+    padding-left: 20px;
+}
+
+.titulo2{
+    width: 100%vh;
+    height: 25px;
+    border: black solid;
+    text-align: center;
+    border-width: 0px 0px 1px 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.caja2{
+    width: 75%;
+    height: 65%;
+    background-color: aliceblue;
+    box-shadow: 10px;
+    border: 1px black solid;
+    margin: 25px;
+    
+    border-radius: 5px;
+}
+
+.cajita1{
+    background-color: crimson;
+    width: 75%;
+    height: 5.5vh;
+    border: black solid 10px;
+    margin-top: 0rem;
+    margin-left: 3rem;
+    border-radius: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.cajita2{
+    background-color:cadetblue;
+    width: 75%;
+    height: 5.5vh;
+    border: black solid 4px;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    box-shadow: 2px 2px 2px 1px;
+}
+
+.caja3{
+    width: 75%;
+    height: 250px;
+    background-color: aliceblue;
+    box-shadow: 10px;
+    border: 1px black solid;
+    margin: 25px;
+    
+    border-radius: 5px;
+}
+
+.cajita3{
+    position: relative;
+    background-color:lightcyan;
+    width: 75%;
+    height: 55%;
+    border: black solid 4px;
+    margin-top: 0rem;
+    margin-left: 3rem;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.subcajita1{
+    position: absolute;
+    background-color:lightsalmon;
+    width: 75%;
+    height: 55%;
+    border: black solid 4px;
+    margin-top: 2rem;
+    margin-left: 100px;
+    padding-left: 0px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.caja4{
+    width: 75%;
+    height: 250px;
+    background-color: aliceblue;
+    box-shadow: 10px;
+    border: 1px black solid;
+    margin: 25px;
+    
+    border-radius: 5px;
+}
+.titulo4{
+    width: 100%vh;
+    height: 25px;
+    border: black solid;
+    text-align: center;
+    border-width: 0px 0px 1px 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.containterGrid{
+    display: grid;
+    grid-auto-flow: column; 
+    gap: 1rem;
+    
+}
+
+.containterGrid div{
+    height: 50%;
+    width: 70%;
+    text-align: center;
+    background-color: lightskyblue;
+    border: 1px black solid;
+    border-radius: 5px ;
+    margin-top: 4rem;
+    margin-left: 0.3rem;
+}
+
+
+.caja5{
+    width: 75%;
+    height: 75%;
+    background-color: aliceblue;
+    box-shadow: 10px;
+    border: 1px black solid;
+    margin: 25px;
+    border-radius: 5px;
+}
+
+.titulo5{
+    width: 100%vh;
+    height: 25px;
+    border: black solid;
+    text-align: center;
+    border-width: 0px 0px 1px 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-top: 25px;
+    margin-left: 100px;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    border: 1px black solid;
+    border-radius: 100%;
+    animation: lado 3s infinite;
+}
+
+.box:hover{
+cursor: pointer;
+background-color: blue;
+border-radius: 60%;
+border: 5px solid black;
+}
+
+@keyframes lado{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateY(-100px);
+    }
+    50%{
+        transform: translateX(500px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cuerpo{
+        background-color: lightcoral;
+    }
+    .titulo, .titulo2, .titulo3, .titulo4, .titulo5{
+        font-size: small;
+    }
+    .parrafo, .parrafo2, .parrafo3, .cita{
+        font-size: small;
+    }
+    .containterGrid div{
+        font-size: x-small;
+    }
+}
+
+
